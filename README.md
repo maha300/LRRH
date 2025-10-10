@@ -3,7 +3,7 @@
 
 Plot - 
 
-  *[Opening dialogue cutscene]*Red's mother telling her that she needs to take Gma her meds and a packed dinner because she's ill. She says to go straight there to beat the night and don't stray from the path. Red tries to reason with her mother that it may be too dangerous for her to go alone. Mom dismisses Red's concerns and tells her to just listen and go. Red has a thought bubble that implies that this is typical of her mother. *[Player gains control of Red and may interact with the villagers minimally before going to Gma's house]* Villager interaction will be limited to greetings and scripted baker interaction getting sweets. *[ensures death ending happens first and shows that villagers are interactable]* 
+  *[Opening dialogue cutscene]*Red's mother telling her that she needs to take Gma her meds and a packed dinner because she's ill. She says to go straight there to beat the night and don't stray from the path. Red tries to reason with her mother that it may be too dangerous for her to go alone. Mom dismisses Red's concerns and tells her to just listen and go. REd is given a basket containing the key items. *[This opens the inventory feature, which will appear at the top of the screen]* Red has a thought bubble that implies that this is typical of her mother. *[Player gains control of Red and may interact with the villagers minimally before going to Gma's house]* Villager interaction will be limited to greetings and scripted baker interaction getting sweets. *[ensures death ending happens first and shows that villagers are interactable]* 
   
   She goes into the forest, which is long path with mostly one path, but with occasional trails that may hold something interesting. When the player tries to go off the path in the first run, Red will put up a thought bubble that will reiterate Mom's advice. *[create sense of curiosity but ensure death scenario and keep focus to main task]* Eventually, Red runs into the wolf who smelled the food she was carrying. She is prompted by the wolf to give him one of her food items [*either packed dinner or baked good will work]*, which he eats and he goes away. *[shows what can attract him, way to avoid him if approached, and possible scheme possibility to poison wolf]* Along the rest of the way through the woods, there may be visual signs that the wolf is following Red.
   
@@ -19,15 +19,25 @@ Village -
   Interactions
   - The Baker : Knocking on her door will prompt a dialogue screen, where you can chat with her about your journey and she will offer some baked goods to take along with you on the long walk. You can accept or decline. **[possibly different baked options for different schemes?]**
       - needed : baker character sprite (1 or 2 for speaking), dialogue with choice variables, baked goods sprite(s), bakery background maybe, bakery building art
-  - The Woodsman : He will be standing outside on his home with his axe leaned up next to him. Talking to him will prompt dialogue screen where you will tell him about about your mission and ask him for advice(first run) or for help via escort or borrowing his axe yourself **[one unlocked after ending with the other?]**. He is blunt and not charitable, so will need to be convinced to help. To get him to give you his axe
+  - The Woodsman : He will be standing outside on his home with his axe leaned up next to him. Talking to him will prompt dialogue screen where you will tell him about about your mission and ask him for advice(first run) or for help via escort or borrowing his axe yourself **[one unlocked after ending with the other?]**. He is blunt and not charitable, so will need to be convinced to help. To get him to come with you, he requires you to pay him one silver coin, which can be obtained by selling scavenged items to the Herbalist.
       - needed : woodsman character sprite (walking and dialogue), axe sprite, code to make woodsman follow red, variable for if he's willing to help,
-  - Lantern - Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
-      - needed : lantern sprite, light effect, 
+  - The Herbalist : The town doctor that deals with herbs. Knocking on his door will prompt dialogue screen outside of his shop, where he kindly says he is busy and asks if there's something you need. If you ask him for a silver coin, he tells you he will buy mushrooms and poison berries that can be found in the forest.
+      - needed : 
+  - Lantern - Sat outside of Red's home. Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
+      - needed : lantern sprite, light effect, wolf attraction variable
 
 Forest
+mushrooms - poison? can be added to dinner
+berries - diff colors some or one poisoned can be added to baked goods
+
 
 Grandma's House
 
 Grandma's Room
+
+Constant Variables - 
+- inventory :
+- time :
+- hunger? : could be poinsoned if you dont know about the berries
 
 Assets :
