@@ -1,5 +1,5 @@
 # Little Red Riding Hood
- - [Original Story](https://americanliterature.com/childrens-stories/little-red-riding-hood)
+ - [Original Story](https://americanliterature.com/childrens-stories/little-red-riding-hood)+
 
 Plot - 
 
@@ -14,8 +14,16 @@ Plot -
   The game goes to black, with text bubbles calling out Red's name. *[New game begins]* The game restarts at the end of Red's introduction conversation with Mom, with Mom asking "are you listening to me?" New converstaion plays out where Red urges her mother that it isn't safe to go on her own. Mom is, again, dismissive and closes the door on Red, reminding her of her advice, which has been proven unhelpful. Red, with a new mission, continues onward.
   
 
-Village
-  
+Village - 
+
+  Interactions
+  - The Baker : Knocking on her door will prompt a dialogue screen, where you can chat with her about your journey and she will offer some baked goods to take along with you on the long walk. You can accept or decline. **[possibly different baked options for different schemes?]**
+      - needed : baker character sprite (1 or 2 for speaking), dialogue with choice variables, baked goods sprite(s), bakery background maybe, bakery building art
+  - The Woodsman : He will be standing outside on his home with his axe leaned up next to him. Talking to him will prompt dialogue screen where you will tell him about about your mission and ask him for advice(first run) or for help via escort or borrowing his axe yourself **[one unlocked after ending with the other?]**. He is blunt and not charitable, so will need to be convinced to help. To get him to give you his axe
+      - needed : woodsman character sprite (walking and dialogue), axe sprite, code to make woodsman follow red, variable for if he's willing to help,
+  - Lantern - Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
+      - needed : lantern sprite, light effect, 
+
 Forest
 
 Grandma's House
