@@ -27,8 +27,13 @@ Village -
       - needed : lantern sprite, light effect, wolf attraction variable
 
 Forest
-mushrooms - poison? can be added to dinner
-berries - diff colors some or one poisoned can be added to baked goods
+- Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
+      - needed : mushroom sprite, consumption/death variable, spawn randomization?
+- Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
+      - needed : berry bush sprite, berry sprite, color randomization
+- Trail one :
+
+- Trail two : In the later half of the forest map, an opening in the bushes trails off of the main path. This can be used as an alternate path to Gma's house to avoid the wolf?
 
 
 Grandma's House
@@ -39,5 +44,8 @@ Constant Variables -
 - inventory :
 - time :
 - hunger? : could be poinsoned if you dont know about the berries
+
+Endings :
+- Poison ending : 
 
 Assets :
