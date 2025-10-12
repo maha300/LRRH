@@ -1,7 +1,7 @@
 # Little Red Riding Hood
  - [Original Story](https://americanliterature.com/childrens-stories/little-red-riding-hood)
 
-Plot - 
+## Plot - 
 
   *[Opening dialogue cutscene]* The first scene begins with Red's mother telling her that she needs to take Gma her meds and a dinner because she's ill. She says to go straight there and never stray from the path, so she may get there before nightfall. Red tries to reason with her mother that it may be too dangerous for her to go alone. Mom dismisses Red's concerns and tells her to just listen and go. [Red is given a basket containing the key items] *[This opens the inventory feature, which will appear at the top of the screen]* Red has a thought bubble that implies that this is typical of her mother. [Player gains control of Red] Red may speak to the villagers, but their interactions will be limited to greetings and a scripted baker interaction, where Red will receive a baked good. *[ensures death ending happens first and shows that villagers are interactable]* 
   
@@ -14,7 +14,7 @@ Plot -
   The game goes to black, with text bubbles calling out Red's name. *[New game begins]* The game restarts at the end of Red's introduction conversation with Mom, with Mom asking "are you listening to me?" New converstaion plays out where Red urges her mother that it isn't safe to go on her own. Mom is, again, dismissive and closes the door on Red, reminding her of her advice, which has now been proven unhelpful. Red, with a new mission, continues onward.
   
 
-Village - 
+### Village - 
 
   Interactions
   - The Baker : Knocking on her door will prompt a dialogue screen, where you can chat with her about your journey and she will offer some baked goods to take along with you on the long walk. You can accept or decline. **[possibly different baked options for different schemes?]**
@@ -27,9 +27,9 @@ Village -
       - needed : 
   - Lantern - Sat outside of Red's home. Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
       - needed : lantern sprite, light effect, wolf attraction variable +
-        
 
-Forest
+
+### Forest
  - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
       - needed : mushroom sprite, consumption/death variable, spawn randomization?
  - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
@@ -39,16 +39,22 @@ Forest
 - Trail two : In the later half of the forest map, an opening in the bushes trails off of the main path. This can be used as an alternate path to Gma's house to avoid the wolf?
 
 
-Grandma's House
+### Grandma's House
 
-Grandma's Room
+
+ - Grandma's Room : is used in certain endings
 
 Constant Variables - 
 - inventory :
 - time :
 - hunger? : could be poinsoned if you dont know about the berries
+- wolf attraction : 
 
-Endings :
-- Poison ending : 
+## Endings :
+- Death (door open) : Killed in living room area
+- Death (door closed) : Wolf must be craftier, killed in bedroom
+- Woodman (death) : Woodsman escorts Red but Wolf get in somehow?
+- Woodsman : Woodsman escorts Red and kills the wolf, but he's evil?
+- Poison ending : Red consumes poison and dies
+- Good ending - Red is able to save Gma on her own, everyone lives
 
-Assets :
