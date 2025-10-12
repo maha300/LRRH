@@ -21,15 +21,18 @@ Village -
       - needed : baker character sprite (1 or 2 for speaking), dialogue with choice variables, baked goods sprite(s), bakery background maybe, bakery building art
   - The Woodsman : He will be standing outside on his home with his axe leaned up next to him. Talking to him will prompt dialogue screen where you will tell him about about your mission and ask him for advice(first run) or for help via escort or borrowing his axe yourself **[one unlocked after ending with the other?]**. He is blunt and not charitable, so will need to be convinced to help. To get him to come with you, he requires you to pay him one silver coin, which can be obtained by selling scavenged items to the Herbalist.
       - needed : woodsman character sprite (walking and dialogue), axe sprite, code to make woodsman follow red, variable for if he's willing to help,
+  - Axe : The Woodsman's trusty tool that he treasures dearly, but is willing to part with for a fee. If Red has the axe, she is able to threaten the wolf with the axe by swinging it at him. Red, who's inexperiences and too young to wield the axe properly, will miss the wolf and cut herself. The wolf will tell Red that she's an amusing girl and will leave her for now. The drawn blood, however, will allow the wolf to follow Red's scent to Gma's.
+      - needed : axe sprite, wolf attraction variable +
   - The Herbalist : The town doctor that deals with herbs. Knocking on his door will prompt dialogue screen outside of his shop, where he kindly says he is busy and asks if there's something you need. If you ask him for a silver coin, he tells you he will buy mushrooms and poison berries that can be found in the forest. You may request poison from him, which will require some of Gma's medicine and poison item.
       - needed : 
   - Lantern - Sat outside of Red's home. Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
-      - needed : lantern sprite, light effect, wolf attraction variable
+      - needed : lantern sprite, light effect, wolf attraction variable +
+        
 
 Forest
-- Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
+ - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
       - needed : mushroom sprite, consumption/death variable, spawn randomization?
-- Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
+ - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
       - needed : berry bush sprite, berry sprite, color randomization
 - Trail one :
 
