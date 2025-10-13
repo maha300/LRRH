@@ -30,17 +30,19 @@
 
 
 ### Forest
- - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
+  - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
       - needed : mushroom sprite, consumption/death variable, spawn randomization?
- - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
+  - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
       - needed : berry bush sprite, berry sprite, color randomization
-- Trail one :
+  - Trail (Riverbank) : At the end a trail leading off of the main path heading south, a river can be found. Hanging off of a 
+      - needed : 
+ 
+  - Trail (Gma's) : In the later half of the forest map, an opening in the bushes trails off of the main path. This can be used as an alternate path to Gma's house to avoid the wolf?
 
-- Trail two : In the later half of the forest map, an opening in the bushes trails off of the main path. This can be used as an alternate path to Gma's house to avoid the wolf?
 
 
 ### Grandma's House
-
+ - Garden : Gma has a garden of flowers and food that she likes to maintain, but has been neglecting since becoming sick. One of the important crops included in this garden is wolfsbane, which acts as a wolf-repelent. It is a high maintainence crop, and has withered and greatly decreased its effect due to the negelct. The food items have managed pretty well on their own and are to be gathered for Gma's fetch quest to get Red out of the house.
 
  - Grandma's Room : is used in certain endings
 
@@ -52,9 +54,10 @@ Constant Variables -
 
 ## Endings :
 - Death (door open) : Killed in living room area
-- Death (door closed) : Wolf must be craftier, killed in bedroom
+- Death (door closed) : Wolf must be craftier, killed in bedroom (first ending - wolf costume)
 - Woodman (death) : Woodsman escorts Red but Wolf get in somehow?
 - Woodsman : Woodsman escorts Red and kills the wolf, but he's evil?
+- Too late : If Red takes too long to prepare, she will arrive to Gma's and she will ahve been eaten. Wolf costume ending? New dialogue?
 - Poison ending : Red consumes poison and dies
 - Good ending - Red is able to save Gma on her own, everyone lives
 
