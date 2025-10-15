@@ -63,5 +63,13 @@
             - if it's grandma's dinner you will need to get more food, otherwise give the food the baker gave you, if its poisoned it will increase your time
          - he will leave appeased
          - talk to the baker
-         - 
+         - ask for a silver coin and wine, she says she doesn't have any silver to spare but has wine, she'll give it to you if you get her some safe berries for pie
+         - return herbalist about berries, give the mushrooms, he will give you a coin
+         - go to forest and collect the right berries
+         - return to baker and she will give you wine
+         - return to woodsman and he will follow you through the woods
+         - go to Gma's house with woodman
+         - Gma's fetch quest again?
+         - when you get back wolf has been killed by woodman in the living room
+         - happy ending yippee
 
