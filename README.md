@@ -32,18 +32,8 @@
       - needed : mushroom sprite, consumption/death variable, spawn randomization?
   - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
       - needed : berry bush sprite, berry sprite, color randomization
-  - Trail (Riverbank) : At the end a trail leading off of the main path heading south, a river can be found. Hanging off of a 
+  - Trail (Riverbank) : At the end a trail leading off of the main path heading south, a river can be found. The final mushroom can be found there. 
       - needed : 
- 
-  - Trail (Gma's) : In the later half of the forest map, an opening in the bushes trails off of the main path. This can be used as an alternate path to Gma's house to avoid the wolf?
-
-
-
-### Grandma's House
- - Garden : Gma has a garden of flowers and food that she likes to maintain, but has been neglecting since becoming sick. One of the important crops included in this garden is wolfsbane, which acts as a wolf-repelent. It is a high maintainence crop, and has withered and greatly decreased its effect due to the negelct. The food items have managed pretty well on their own and are to be gathered for Gma's fetch quest to get Red out of the house.
-
- - Grandma's Room : is used in certain endings
-
 
 
 ## Endings :
