@@ -17,20 +17,18 @@
 ### Village - 
 
   Interactions
-  - The Baker : Knocking on her door will prompt a dialogue screen, where you can chat with her about your journey and she will offer some baked goods to take along with you on the long walk. You can accept or decline. **[possibly different baked options for different schemes?]**
-      - needed : baker character sprite (1 or 2 for speaking), dialogue with choice variables, baked goods sprite(s), bakery background maybe, bakery building art
-  - The Woodsman : He will be standing outside on his home with his axe leaned up next to him. Talking to him will prompt dialogue screen where you will tell him about about your mission and ask him for advice(first run) or for help via escort or borrowing his axe yourself **[one unlocked after ending with the other?]**. He is blunt and not charitable, so will need to be convinced to help. To get him to come with you, he requires you to pay him one silver coin, which can be obtained by selling scavenged items to the Herbalist.
+  - The Baker : The town’s main provider of baked goods. Upon entering her shop, you can chat with her about your journey and she will offer some baked goods to take along with you on the long walk. You can accept or decline. You can ask her for alcohol and she will reluctantly give it to you if you can bring her some non-poisonous berries from the forest. She doesn’t remember which berry color is poison, though.
+      - needed : baker character sprite, dialogue with choice variables, baked goods sprite(s), bakery background maybe
+  - The Woodsman : The town's axe-bearing lumberjack. He will be standing outside his home with his axe leaned up next to him. Talking to him, he will give some vague advice on the first run or for help via escort in order to save Gma. He is blunt and uncharitable, so will need to be convinced to help. To get him to come with you, he requires you to pay him one silver coin and some alcohol. 
       - needed : woodsman character sprite (walking and dialogue), axe sprite, code to make woodsman follow red, variable for if he's willing to help,
-  - Axe : The Woodsman's trusty tool that he treasures dearly, but is willing to part with for a fee. If Red has the axe, she is able to threaten the wolf with the axe by swinging it at him. Red, who's inexperiences and too young to wield the axe properly, will miss the wolf and cut herself. The wolf will tell Red that she's an amusing girl and will leave her for now. The drawn blood, however, will allow the wolf to follow Red's scent to Gma's.
-      - needed : axe sprite, wolf attraction variable +
-  - The Herbalist : The town doctor that deals with herbs. Knocking on his door will prompt dialogue screen outside of his shop, where he kindly says he is busy and asks if there's something you need. If you ask him for a silver coin, he tells you he will buy mushrooms and poison berries that can be found in the forest. You may request poison from him, which will require some of Gma's medicine and poison item.
-      - needed : 
-  - Lantern - Sat outside of Red's home. Without the lantern, Red can babrely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
-      - needed : lantern sprite, light effect, wolf attraction variable +
+  - The Herbalist : The town doctor that deals with herbs. Knocking on his door will prompt dialogue screen outside of his shop, where he kindly says he is busy and asks if there's something you need. He can help with giving you a silver coin via a fetch quest for forest herbs, inform you about which berry is poison, as well as help you make a poison bait for the wolf.
+      - needed : herbalist character sprite, mushroom sprite, silver coin sprite, fetch quest variable, dialogue options
+  - Lantern - Sat outside of Red's home. Without the lantern, Red can barely see in the forest and can't go off of the trail even after the first run. Using the lantern will allow the player to explore other parts of the forest even when it turns to night. The light will, however, attract the wolf to follow.
+      - needed : lantern sprite, light effect
 
 
 ### Forest
-  - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They are a mild poison that can be combined with the prepared meal for a scheme. The can be sold to the Herbalist in a fetch quest from silver. If eaten, you'll obtain a poison death ending soon after.
+  - Mushrooms - Can be found in bunches in some of the dark parts of the forest. They can be sold to the Herbalist in a fetch quest from silver. You will need five to beat .
       - needed : mushroom sprite, consumption/death variable, spawn randomization?
   - Berries - Can be collected from bushes throughout the forest map. There are four different colors that spawn (red, orange, blue, and purple), with orange being poionous. You are able to consume all types, but only find out which is poison by asking the herbalist or by eating them. They can be added to baked goods for a scheme.
       - needed : berry bush sprite, berry sprite, color randomization
@@ -46,18 +44,24 @@
 
  - Grandma's Room : is used in certain endings
 
-Constant Variables - 
-- inventory :
-- time :
-- hunger? : could be poinsoned if you dont know about the berries
-- wolf attraction : 
+
 
 ## Endings :
-- Death (door open) : Killed in living room area
-- Death (door closed) : Wolf must be craftier, killed in bedroom (first ending - wolf costume)
-- Woodman (death) : Woodsman escorts Red but Wolf get in somehow?
-- Woodsman : Woodsman escorts Red and kills the wolf, but he's evil?
-- Too late : If Red takes too long to prepare, she will arrive to Gma's and she will ahve been eaten. Wolf costume ending? New dialogue?
-- Poison ending : Red consumes poison and dies
-- Good ending - Red is able to save Gma on her own, everyone lives
+- First death ending
+- First encounter death ending -
+     - if you go into the forest to forage and don't have food on you to give the wolf, he'll eat you then and there
+- Good ending -
+     - How to get ending:
+         - talk to the woodsman
+         - you beg him to come with you to Gma's house and protect you from the wolf, he will say it's a pretty hefty favor, but he'll do it for a silver coin and some wine
+         - you and your mom don't have that kind of money, he tells you it's not his problem, so ask around
+         - talk to the herbalist
+         - ask him if you can have a silver coin and wine, he says he doesn't have wine, but he does have money. he won't give it for free and will give it to you for 5 mushrooms
+         - you go to the forest and look for some, to get the last one you need to go a little further in and down a path
+         - at the end of the path, you encounter the wolf who says he's hungry and asks you can do about that
+         - give him food you have in your inventory,
+            - if it's grandma's dinner you will need to get more food, otherwise give the food the baker gave you, if its poisoned it will increase your time
+         - he will leave appeased
+         - talk to the baker
+         - 
 
