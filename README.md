@@ -2,7 +2,8 @@
  - [Original Story](https://americanliterature.com/childrens-stories/little-red-riding-hood)
 
  - [Dialogue Script](https://docs.google.com/document/d/1SUhaQq66Av_28JC33XNLUOK8t7B5f1Np7A0H4xt5Mt8/edit?usp=drivesdk)
-  
+
+ - [New repo with correct unity version](https://github.com/amhillwig/LittleRed)
 ## Plot - 
 
   *[Opening dialogue cutscene]* The first scene begins with Red's mother telling her that she needs to take Gma her meds and a dinner because she's ill. She says to go straight there and never stray from the path, so she may get there before nightfall. Red tries to reason with her mother that it may be too dangerous for her to go alone. Mom dismisses Red's concerns and tells her to just listen and go. [Red is given a basket containing the key items] *[This opens the inventory feature, which will appear at the top of the screen]* Red has a thought bubble that implies that this is typical of her mother. [Player gains control of Red] Red may speak to the villagers, but their interactions will be limited to greetings and a scripted baker interaction, where Red will receive a baked good. *[ensures death ending happens first and shows that villagers are interactable]* 
